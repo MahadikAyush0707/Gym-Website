@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dream_Fitness - Gym Website</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css'>
+
+</head>
+<body>
+
+    <nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+    >
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            class="text-lg font-bold leading-relaxed inline-block mt-1 mr-4 py-2 whitespace-no-wrap uppercase text-white"
+            href="#body_"
+            ><span class="text-yellow-500"> Dream Fitness Gym </span>
+          </a>
+
+          <button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar"
+        >
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#pablo"
+                ><i
+                  class="text-yellow-500 fa fa-users text-lg leading-lg"
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Our Members</span></a
+              >
+            </li>
+           
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#pablo"
+                ><i
+                  class="text-yellow-500 fa fa-file-image text-lg leading-lg"
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Gym photos</span></a
+              >
+            </li>
+           
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#pablo"
+                ><i
+                  class="text-yellow-500 fab fa-instagram text-lg leading-lg"
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Social Media</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <main>
+      <!--picture -->
+      <div
+        class="relative pt-16 pb-32 flex content-center items-center justify-center"
+        style="min-height: 160vh"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-top bg-cover"
+          style="
+            background-image: url('Screenshot\ 2024-01-08\ 192332.png');
+          "
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto" data-aos="fade-in">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div>
+                <h1 class="text-white font-semibold text-5xl">
+                  Work Hard Stay <span class="text-yellow-500">Strong</span>
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  An exercise system that keeps you safe, makes things simple,
+                  and gives you support so you feel capable and confident.
+                </p>
+                <a
+                  href="#contact_form"
+                  class="bg-transparent hover:bg-yellow-500 text-yellow-600 font-semibold hover:text-white p-3 border border-yellow-600 hover:border-trasparent rounded inline-block mt-5 cursor-pointer"
+                >
+                  Let's Start
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          style="height: 70px; transform: translateZ(0px)"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon points="2560 0 2560 100 0 100"></polygon>
+          </svg>
+        </div>
+      </div>
+
+      <!--About Section -->
+      <section id="about" class="relative py-20 bg-black text-white">
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="Screenshot 2024-01-08 193519.png"
+              />
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+              <div class="md:pr-12">
+                <small
+                  ><span class="text-yellow-500 uppercase"
+                    >About US</span
+                  ></small
+                >
+                <h3 class="text-3xl uppercase font-bold">
+                  We Believe in <br />
+                  <span class="text-yellow-500">“Discipline”.</span> <br />
+                  Yours and Ours.
+                </h3>
+                <p class="mt-4 text-lg leading-relaxed">
+                  Regular gym attendance promotes strength, endurance, flexibility, and balance, contributing to overall physical fitness and well-being. Additionally, engaging in physical activity at the gym can help manage weight, reduce the risk of chronic diseases, improve sleep, boost mood, and enhance cognitive function. The social aspect of gym attendance can also lead to valuable connections and support networks.
+                </p>
+                <ul class="list-none mt-6">
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="font-semibold inline-block py-3 mr-3 text-yellow-500"
+                          ><i class="fas fa-dumbbell fa-2x"> </i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">A Customized Fitness Program</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="font-semibold inline-block py-3 mr-3 text-yellow-500"
+                          ><i class="fas fa-hard-hat fa-2x"> </i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">Personal Training </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="font-semibold inline-block py-3 mr-3 text-yellow-500"
+                          ><i class="fas fa-users fa-2x"> </i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-xl">Health and Fitness counseling services</h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Trainers Sections -->
+      <section class="pt-20 pb-48">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center text-center mb-24">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold uppercase">Our Trainers</h2>
+              <p class="text-lg leading-relaxed m-4">
+                Get the latest training tips and performance information from
+                the Dream_Fitness team.
+              </p>
+            </div>
+          </div>
+          <!-- Trainer Card Wrapper -->
+          <div class="flex flex-wrap">
+            <!-- Card 1 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="IMG-20240109-WA0006.jpg"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Jagdish Borhade</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    professional trainer
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="IMG-20240109-WA0007.jpg"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Satyawan Bhalerao</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    professional trainer
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="IMG-20240109-WA0005.jpg"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Sujata Borhade</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    professional trainer
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact header section -->
+<div style="height: 100px;">
+  <div>
+
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px)"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-300 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Follow us on social media</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6">
+              <button
+                class="bg-yellow-500 text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-twitter"></i></button
+              ><button
+                class="bg-yellow-500 text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i
+                  class="flex fab fa-facebook-square bg-yellow-500"
+                ></i></button
+              ><button
+                class="bg-yellow-500 text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-linkedin bg-yellow-700"></i></button
+              ><button
+                class="bg-yellow-500 text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-instagram"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright ©  Dream Fitness
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js'></script>
+  <script  src="./script.js"></script>
+  <script>function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle('hidden')
+    document.getElementById(collapseID).classList.toggle('block')
+  }
+
+
+AOS.init({
+    delay: 200,
+    duration: 1200,
+    once: false,
+  })</script>
+
+</body>
+</html>
